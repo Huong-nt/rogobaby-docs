@@ -157,7 +157,7 @@ Send notification from app to the device.
 - Code 200: NOTFOUND do not have any new notification
 ```json
 {
-    "ok": true,
+    "ok": false,
     "message": "do not have new notification"
 }
 ```
