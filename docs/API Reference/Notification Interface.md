@@ -175,7 +175,7 @@ Send notification from app to the device.
 **Sample Message**
 ```json
 {
-    "directive": {
+    "directive": [{
         "header": {
             "namespace": "Notifications",
             "name": "SetIndicator"
@@ -185,6 +185,6 @@ Send notification from app to the device.
                 "url": "{{STRING}}"
             }
         }
-    }
+    }]
 }
 ```
